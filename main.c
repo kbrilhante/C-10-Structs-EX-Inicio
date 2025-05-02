@@ -31,9 +31,9 @@
 
 	Todas as funcionalidades precisam estar em um menu
 */
-char NOMES[9][11] = {"Abigail", "Amanda", "Daniel", "Emily",  "Isabella",
+const char NOMES[9][11] = {"Abigail", "Amanda", "Daniel", "Emily",  "Isabella",
 									 "Olivia",  "Samuel", "Sarah",  "William"};
-float NOTAS[9][4] = {
+const float NOTAS[9][4] = {
 		{3.8, 3.2, 6.4, 5.7}, {6.9, 8.0, 6.4, 8.5},  {10.0, 9.3, 8.3, 7.0},
 		{8.5, 9.0, 8.7, 7.0}, {9.0, 6.1, 7.9, 10.0}, {9.7, 10.0, 8.9, 8.8},
 		{5.5, 7.5, 7.9, 4.1}, {8.9, 9.9, 8.1, 9.6},  {7.6, 7.0, 7.6, 10.0}
